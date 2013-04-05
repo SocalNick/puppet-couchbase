@@ -1,9 +1,12 @@
 # Couchbase Puppet Module for Boxen
 
+Cannot get the Couchbase Server app to install.
+Currently only installing libcouchbase works.
+
 ## Usage
 
 ```puppet
-include couchbase
+include couchbase::lib
 ```
 
 ## Required Puppet Modules
